@@ -1,8 +1,10 @@
+import React from "react";
+
 import logo from './logo.svg';
 import './App.css';
 
 import Header from './components/Header';
-import Navbar from "./components/Navbar";
+import Nav from "./components/Nav";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -11,8 +13,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
+  
     <div className="App">
-      <Navbar />
+      <Nav />
       <Header />
       <About />
       <Projects />
